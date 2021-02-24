@@ -24,7 +24,6 @@ public class TeamWork {
         Hanoi(n, 'J', 'L', 'M');  // names of rods 
         
     }  
-}
 
     
 }
