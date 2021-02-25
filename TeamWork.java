@@ -6,7 +6,12 @@ public class TeamWork {
 
     static void Hanoi(int n, char rodOne, char rodThree, char rodTwo) 
     { 
-        //lawrence
+        if (n == 1)// check if n = 1 to be move then return 
+        { 
+            System.out.println("Disc 1 from " +  rodOne + " to " + rodThree); 
+            return; 
+        } 
+        Hanoi(n-1, rodOne, rodTwo, rodThree); 
         
  
     } 
