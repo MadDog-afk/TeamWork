@@ -10,6 +10,7 @@ public class TeamWork {
         { 
             System.out.println("Disc 1 from " +  rodOne + " to " + rodThree); 
             return; 
+            system.out.print("rodone")
         } 
         Hanoi(n-1, rodOne, rodTwo, rodThree); 
         
